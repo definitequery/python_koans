@@ -12,7 +12,7 @@ def generate_triangular_number(n):
 def generate_triangular_numbers():
   # Only generate the first 100 to prove the point
   triangular_numbers = []
-  for i in range(100:
+  for i in range(100):
     triangular_numbers.append(generate_triangular_number(i))
   return triangular_numbers
 
