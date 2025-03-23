@@ -7,12 +7,12 @@
 def generate_triangular_number(n):
   # The nth triangular number is the sum from 1...n. There is a simple formula for this:
   # sum = n(n+1)/2
-  return (n * n+1) / 2
+  return n * (n+1) // 2
 
 def generate_triangular_numbers():
   # Only generate the first 100 to prove the point
   triangular_numbers = []
-  for i in range(100):
+  for i in range(101):
     triangular_numbers.append(generate_triangular_number(i))
   return triangular_numbers
 
